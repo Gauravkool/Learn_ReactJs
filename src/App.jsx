@@ -1,7 +1,12 @@
+import Cart from "./component/card";
+import Counter from "./component/counter";
+
 function App() {
   return (
     <>
-      <h1 className="text-2xl text-red-700">Hello World</h1>
+      <Counter />
+      <Cart username="Monali" btnText="View Profile"/>
+      <Cart username="Gupta" btnText="View Details"/>
     </>
   );
 }
