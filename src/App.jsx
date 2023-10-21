@@ -1,12 +1,15 @@
 import Cart from "./component/card";
+import ColorChnager from "./component/bgChanger";
 import Counter from "./component/counter";
+import BgChanger from "./component/bgChanger";
 
 function App() {
   return (
     <>
-      <Counter />
+      {/* <Counter />
       <Cart username="Monali" btnText="View Profile"/>
-      <Cart username="Gupta" btnText="View Details"/>
+      <Cart username="Gupta" btnText="View Details"/> */}
+      <BgChanger/>
     </>
   );
 }
