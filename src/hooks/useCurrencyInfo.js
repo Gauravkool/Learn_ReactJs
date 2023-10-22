@@ -9,7 +9,6 @@ function useCurrencyInfo(currency) {
       .then((res) => res.json())
       .then((data) => setData(data[currency]));
   }, [currency]);
-  console.log(data);
   return data;
 }
 export default useCurrencyInfo;
