@@ -4,7 +4,9 @@ import Counter from "./component/counter";
 import BgChanger from "./component/bgChanger";
 import PasswordGenerator from "./component/passwordGenerator";
 import CurrencyApp from "./component/CurrencyApp";
-
+import UserContextProvider from "./Context/UserContextProvider";
+import Login from "./component/Login";
+import Profile from "./component/Profile";
 
 function App() {
   return (
@@ -15,7 +17,12 @@ function App() {
       {/* <BgChanger/> */}
       {/* <PasswordGenerator/> */}
       {/* <CurrencyApp/> */}
-      
+      <UserContextProvider>
+        <div className="text-center my-5">
+          <Login />
+          <Profile />
+        </div>
+      </UserContextProvider>
     </>
   );
 }
