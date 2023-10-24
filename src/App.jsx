@@ -8,6 +8,7 @@ import UserContextProvider from "./Context/UserContextProvider";
 import Login from "./component/Login";
 import Profile from "./component/Profile";
 import ThemeApp from "./component/ThemeApp";
+import TodoApp from "./component/TodoApp";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       {/* <Counter />
       <Cart username="Monali" btnText="View Profile"/>
       <Cart username="Gupta" btnText="View Details"/> */}
-      {/* <BgChanger/> */}
+      {/* <BgChanger /> */}
       {/* <PasswordGenerator/> */}
       {/* <CurrencyApp/> */}
 
@@ -25,7 +26,8 @@ function App() {
           <Profile />
         </div>
       </UserContextProvider> */}
-      <ThemeApp />
+      {/* <ThemeApp /> */}
+      <TodoApp />
     </>
   );
 }
